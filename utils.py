@@ -32,5 +32,6 @@ def unique_sorted(lst):
     while i < len(result) - 1:
         if result[i] == result[i + 1]:
             result.pop(i)
-        i += 1
+        else:
+            i += 1
     return result
